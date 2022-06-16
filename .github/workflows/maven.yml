@@ -29,6 +29,6 @@ jobs:
       uses: docker/build-push-action@v3
       with: 
         image: pavankumar789/tomcatrepo
-        registry: docker.io
+        registry: https://hub.docker.com/
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
