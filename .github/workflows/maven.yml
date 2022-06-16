@@ -28,7 +28,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: docker/build-push-action@v3
       with: 
-        image: pavankumar789/tomcatrepo
-        registry: https://hub.docker.com/
+        image: pavankumar789/gitactions
+        registry: docker.io
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
