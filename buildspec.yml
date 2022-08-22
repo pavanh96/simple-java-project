@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+      -  - mv target/works-with-heroku-1.0.war works-with-heroku-1.0.war
 artifacts:
   files:
     - target/my-app-1.0-SNAPSHOT.jar
